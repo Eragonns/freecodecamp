@@ -11,5 +11,97 @@
         <h1>freeCodeCamp Survey Form</h1>
         <h5>Thank for taking the time to help us improve the platform </h5>
     </header>
+    <main>
+        <form action="">
+            <fieldset>
+                <p>
+                    <label for="nom" class="space">Name</label><br>
+                    <input class="nom" type="text" id="nom" placeholder="Enter your name">
+                </p>
+                <p>
+                    <label for="mail">Email</label><br>
+                    <input type="email" id="mail" placeholder="Enter your Email">
+                </p>
+                <p>
+                    <label for="age">Age (optional)</label><br>
+                    <input type="text" id="age" placeholder="Age">
+                </p>
+                <p>
+                    <label for="role">Which option best describes your current role?</label><br>
+                    <select name="option" id="role">
+                        <label for="role">Which option best describes your current role?</label><br>
+                        <option hidden>select current role</option>
+                        <option value="sansemploi">Sans emploi</option>
+                        <option value="enformation">En formation</option>
+                        <option value="salarie">Salarie</option>
+                        
+                    </select>
+                </p>
+                <p>
+                    Would you racommend freeCodeCamp to a friend?<br>
+                    <input type="radio" id="recommandation" name="avis">
+                    <label for="recommandation">Definitely</label><br>
+                    <input type="radio"id="recommandation" name="avis">
+                    <label for="recommandation">Maybe</label><br>
+                    <input type="radio" id="recommandation" name="avis">
+                    <label for="recommandation">Not sure</label>
+                </p>
+                <p>
+                    <label for="role">What is your favorite feature of freeCodeCamp?</label><br>
+                    <select name="feature" id="role">
+                        <option hidden>Select an option</option>
+                        <option value="programming">PROGRAMMING</option>
+                        <option value="technology">TECHNOLOGY</option>
+                        <option value="javascript">JAVASCRIPT</option>
+                        <option value="webdeveloppement">WEB DEVELOPPEMENT</option>
+                        <option value="react">REACT</option>
+                        <option value="tech">TECH</option>
+                        <option value="python">PYTHON</option>
+                        <option value="startup">STARTUP</option>
+                        <option value="youtube">YOUTUBE</option>
+                        <option value="softwaredevelopment">SOFTWARE DEVELOPMENT</option>
+                        <option value="design">DESIGN</option>
+                        <option value="lifelessons">LIFE LESSONS</option>
+                        <option value="productivity">PRODUCTIVITY</option>
+                        <option value="selfimprovement">SELF IMPROVEMENT</option>
+                        <option value="css">CSS</option>
+
+
+                    </select>
+                </p>
+                <p>
+                    What would you like to see improved? (check all that apply)<br>
+                    <input type="checkbox" id="choix">
+                    <label for=choix>Front-end Projects</label><br>
+                    <input type="checkbox" id="choix">
+                    <label for=choix>Back-end Projects</label><br>
+                    <input type="checkbox" id="choix">
+                    <label for=choix>Data Visualization</label><br>
+                    <input type="checkbox" id="choix">
+                    <label for=choix>Challenges</label><br>
+                    <input type="checkbox" id="choix">
+                    <label for=choix>Open Source Community</label><br>
+                    <input type="checkbox" id="choix">
+                    <label for=choix>Gitter help rooms</label><br>
+                    <input type="checkbox" id="choix">
+                    <label for=choix>Videos</label><br>
+                    <input type="checkbox" id="choix">
+                    <label for=choix>City Meetups</label><br>
+                    <input type="checkbox" id="choix">
+                    <label for=choix>Wiki</label><br>
+                    <input type="checkbox" id="choix">
+                    <label for=choix>Forum</label><br>
+                    <input type="checkbox" id="choix">
+                    <label for=choix>Additional Courses</label><br>
+                </p>
+                <p>
+                    <label for="comment">Any comments or suggestion?</label><br>
+                    <textarea name="comment" id="text" cols="40" rows="5" placeholder="Enter your comment here..."></textarea>
+                </p>
+                <label for="envoye"></label>
+                <input type="submit" id="envoye">
+            </fieldset>
+            </form>
+        </main>
 </body>
 </html>
